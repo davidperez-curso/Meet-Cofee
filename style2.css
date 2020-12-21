@@ -1,0 +1,110 @@
+body {
+  width: 1920px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0;
+}
+
+#menu {
+  width: 1920px;
+  height: 99px;
+  background-color: black;
+  color: white;
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#menu img {
+  margin-left: 127px;
+  color: white;
+  width: 44px;
+  height: 44px;
+  -webkit-filter: invert(1);
+  filter: invert(1);
+}
+
+#menu ul a {
+  text-decoration: none;
+  color: white;
+  font-family: "Open Sans";
+  font-size: 25px;
+  margin-left: 35px;
+  text-align: left;
+  letter-spacing: 0.25px;
+}
+
+#contenido {
+  width: 1085px;
+  margin-top: 99px;
+  margin-bottom: 70px;
+}
+
+#contenido h2 {
+  font-family: "Open Sans";
+  font-size: 45px;
+}
+
+#contenido img {
+  width: 1085px;
+}
+
+#contenido p {
+  font-family: "Open Sans";
+  font-size: 25px;
+  text-align: justify;
+}
+
+footer {
+  width: 1920px;
+  height: 284px;
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 70px;
+}
+
+footer div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer div img {
+  width: 70px;
+  height: 70px;
+  margin-left: 27px;
+  -webkit-filter: invert(1);
+  filter: invert(1);
+}
+
+footer p {
+  font-family: "Open Sans";
+  color: white;
+  font-size: 25px;
+  margin-top: 50px;
+}
+/*# sourceMappingURL=style2.css.map */

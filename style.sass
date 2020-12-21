@@ -1,0 +1,173 @@
+$fuente: "Open Sans"
+$color-cafe: #a4452c
+$color-nickel: #707070
+$color-grinder: #b36b01
+
+body
+    margin: 0
+    
+#contenedor_principal
+    display: flex
+    flex-direction: column
+    
+#nav
+    width: 1917px
+    height: 99px
+    background-color: black
+    color: white
+    position: fixed
+    display: flex
+    align-items: center
+    img
+        margin-left: 127px
+        color: white
+        width: 44px
+        height: 44px
+        -webkit-filter: invert(1)
+        filter: invert(1)
+    ul a
+        text-decoration: none
+        color: white
+        font-family: $fuente
+        font-size: 25px
+        margin-left: 35px
+        text-align: left
+        letter-spacing: 0.25px
+
+#seccion_principal
+    text-align: right
+    text-shadow: 2px 3px 2px $color-nickel
+    width: 1917px
+    height: 422px
+    background-image: url("bg-hero.png")
+    background-size: cover
+    color: white
+    margin-top: 99px
+    h1
+        margin-top: 52px
+        margin-right: 197px
+        font-family: $fuente
+        font-size: 60px
+        font-weight: 800
+    h2
+        margin-right: 197px
+        margin-bottom: 151px
+        font-family: $fuente
+        font-size: 40px
+        font-weight: 400
+
+#seccion_lugar
+    width: 1917px
+    height: 830px
+    display: flex
+    align-items: center
+    justify-content: center
+    flex-direction: column
+    img
+        width: 519px
+        height: 344px
+    h2
+        font-family: $fuente
+        font-size: 45px
+        font-weight: 700
+        margin-bottom: 9px
+    p
+        width: 796px
+        height: 77px
+        font-family: $fuente
+        font-size: 25px
+        font-weight: 400
+        text-align: center
+        margin-top: 9px
+
+#seccion_charla
+    width: 1917px
+    height: 501px
+    background: $color-cafe
+    color: white
+    display: flex
+    justify-content: center
+    img
+        width: 311px
+        height: 293px
+        align-self: center
+    .texto
+        align-self: center
+        font-family: $fuente
+        margin-left: 40px
+        h2
+            font-size: 45px
+            font-weight: 700
+            margin-bottom: 1.5px
+        h3
+            font-size: 40px
+            font-weight: 700
+            margin-top: 1.5px
+            margin-bottom: 4.5px
+        h4
+            font-size: 33px
+            font-weight: 400
+            margin-bottom: 0
+            margin-top: 4.5px
+        h5
+            font-size: 20px
+            font-weight: 400
+            margin-top: 0
+            margin-bottom: 6.5px
+        p
+            width: 706px
+            text-align: justify
+            font-size: 25px
+            font-weight: 400
+            margin-top: 6.5px
+            margin-bottom: 55px     
+        
+#seccion_eventos
+    width: 1917px
+    height: 770px
+    font-family: $fuente
+    display: flex
+    flex-direction: column
+    justify-content: center
+    h2
+        text-align: center
+        font-size: 45px
+        font-weight: 700
+    #imagenes
+        display: flex
+        flex-direction: row
+        justify-content: space-evenly
+        .columna
+            flex-direction: column
+            a
+                text-decoration: none
+            img
+                width: 415px
+                height: 244px
+            h3
+                font-size: 35px
+                font-weight: 700
+                text-align: center
+       
+footer
+    width: 1920px
+    height: 284px
+    background-color: black
+    display: flex
+    align-items: center
+    justify-content: center
+    flex-direction: column
+    div
+        display: flex
+        img
+            width: 70px
+            height: 70px
+            margin-left: 27px
+            -webkit-filter: invert(1)
+            filter: invert(1)
+    p
+        font-family: $fuente
+        color: white
+        font-size: 25px
+        margin-top: 50px
+    
